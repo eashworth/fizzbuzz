@@ -11,3 +11,9 @@ describe "fizzbuzz" do
     expect(fizzbuzz(5)).to eq "buzz"
   end
 end
+
+describe "fizzbuzz" do
+  it "return 'fizzbuzz' if number divisible by 3 and 5" do
+    expect(fizzbuzz(15)).to eq "fizzbuzz"
+  end
+end
