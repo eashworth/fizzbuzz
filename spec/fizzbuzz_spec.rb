@@ -19,7 +19,13 @@ describe "fizzbuzz" do
 end
 
 describe "fizzbuzz" do
-  it "return number if number is not divisible by 3 or 5" do 
+  it "return number if number is not divisible by 3 or 5" do
   expect(fizzbuzz(2)).to eq 2
 end
-end 
+end
+
+describe "fizzbuzz" do
+  it "requests integer if input not integer" do
+    expect(fizzbuzz("3")).to eq "please input an integer"
+  end
+end
